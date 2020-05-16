@@ -55,7 +55,7 @@ ul.menubar li.right {
 .footerpush {
   height:20px;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:1200px) {
   ul.menubar li.right, ul.menubar li {
     float:none;
   }
