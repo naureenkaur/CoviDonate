@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<!--Made By: Kacper Burza, Naureen Kaur, Brian Philips-->
+<head>
+  <title>CoviDonate | Donate Now</title>
+  <link rel="stylesheet" href="donatenowstyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="icon.png" />
+</head>
+
+<body>
+    <ul class="menubar">
+        <li class="left" , style="padding:0px;margin-top:0px;"><a href="index.html"><img src="white.png" style="width:383px;height:55px;"></a></li>
+        <li class="right" , style="margin-top:10px;font-size:25px;"><a href="donationsneeded.html">Donations Needed</a></li>
+        <li class="right" , style="margin-top:10px;font-size:25px;"><a href="donatenow.html">Donate Now</a></li>
+    </ul>
+</ul>
+
+<div>
+<div class="center">
+  <buttonRedCross onclick="document.getElementById('RedCross').style.display='block'" style="width:200px;height:200px;"></buttonRedCross>
+  <div id="RedCross" class="modal">
+
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('RedCross').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="redcross.jpg"style="width:100px;height:100px"; alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+      <h3>Our Mission</h3>
+      <p>The Canadian Red Cross mission is to improve the lives of vulnerable people by mobilizing the power of humanity in Canada and around the world </p>
+      <h3>Our Vision</h3>
+      <p>The Canadian Red Cross is the leading humanitarian organization through which people voluntarily demonstrate their caring for others in need.</p>
+      </div>
+
+      <div class="container">
+        <button type="button" onclick=window.open('https://www.redcross.ca/donate/','_blank') style="background-color:#FF0000">Donate Now</button>
+      </div>
+    </form>
+  </div>
+  <script>
+  // Get the modal
+  var modal = document.getElementById('RedCross');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+
+  <buttonCAMH onclick="document.getElementById('CAMH').style.display='block'" style="width:200px;height:200px;"></buttonCAMH>
+  <div id="CAMH" class="modal">
+
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('CAMH').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="CAMH.jpg"style="width:100px;height:100px"; alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <p>The Centre for Addiction and Mental Health (CAMH) is Canada's largest mental health teaching hospital and one of the world's leading research centres in its field.
+           CAMH is fully affiliated with the University of Toronto and is a Pan American Health Organization/World Health Organization Collaborating Centre.</p>
+        <p>With a dedicated staff of more than 3,000 physicians, clinicians, researchers, educators and support staff, CAMH offers outstanding clinical care to more than 34,000 patients each year. The organization conducts groundbreaking research, provides expert training to health care professionals and scientists, develops innovative health promotion and prevention strategies, and advocates on public policy issues at all levels of government. And through our Foundation, we're working to raise tens of millions of additional dollars to fund new programs and research and augment services.</p>
+      </div>
+
+      <div class="container">
+        <button type="button" onclick=window.open('https://www.camh.ca/en/driving-change/about-camh','_blank') style="background-color:#70288c">Donate Now</button>
+      </div>
+    </form>
+  </div>
+  <script>
+  // Get the modal
+  var modal = document.getElementById('CAMH');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+
+  <buttonUHN onclick="document.getElementById('UHN').style.display='block'" style="width:200px;height:200px;"></buttonUHN>
+  <div id="UHN" class="modal">
+
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('UHN').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="UHNold.jpg"style="width:100px;height:100px"; alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+    <p><b>Our Vision:</b> A Healthier World</p>
+    <p><b>Our Purpose:</b> Transforming lives and communities through excellence in care, discovery and learning.</p>
+        <p><b>About Us</b></p>
+        <p>University Health Network encompasses the Toronto General and Toronto Western hospitals, the Princess Margaret Cancer Centre, Toronto Rehabilitation Institute, and The Michener Instituteof Education at UHN.
+          The scope of research and complexity of cases at UHN has made us a national and international source for discovery, education and patient care.
+        </p>
+        <p>
+        Funding – Primary funding for UHN comes from the Ontario Ministry of Health and Long-Term Care. Other funding sources include patient services, grants and donations from individuals and corporations.
+        University Health Network is a research hospital fully affiliated with the University of Toronto.
+        </p>
+    </div>
+
+    <div class="container">
+      <button type="button" onclick=window.open('https://www.uhn.ca/Covid19/Pages/COVID_support_donations.aspx','_blank') style="background-color:#cab877">Donate Now</button>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('UHN');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+<div class="center">
+  <buttonCanadaHelps onclick="document.getElementById('CanadaHelps').style.display='block'" style="width:200px;height:200px;"></buttonCanadaHelps>
+
+  <div id="CanadaHelps" class="modal">
+
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('CanadaHelps').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="CanadaHelps.jpg" style="width:125px;height:125px"; alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <p>CanadaHelps is a registered charity dedicated to increasing charitable giving across Canada. We do that by serving both donors and charities.</p>
+
+      <p> <b>For donors</b>, we offer a one-stop shop for discovering, donating, or fundraising online for any registered Canadian charity. We process donations made using our site, disburse the funds to the charities and provide instant or anytime access tax receipts directly to the donors.</p>
+
+      <p><b>For charities</b>, we provide open access to our affordable, secure online fundraising platform and training so they can better connect with their supporters.</p>
+
+      <p>  Because we’re a non-profit, our fees are a fraction of for-profit alternatives so your donation dollars go further and work harder when you give using CanadaHelps.
+
+      </p>
+    </div>
+
+    <div class="container">
+      <button type="button" onclick=window.open('https://www.canadahelps.org/en/donate/?find','_blank') style="background-color:#0571af">Donate Now</button>
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('CanadaHelps');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+  <buttonSalvationArmy onclick="document.getElementById('SalvationArmy').style.display='block'" style="width:200px;height:200px;"></buttonSalvationArmy>
+
+  <div id="SalvationArmy" class="modal">
+
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('SalvationArmy').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="SalvationArmy.jpg"style="width:150px;height:150px"; alt="Avatar" class="avatar">
+    </div>
+
+  <div class="container" >
+  <h3>Mission Statement</h3>
+  <p>The Salvation Army exists to share the love of Jesus Christ, meet human needs and be a transforming influence in the communities of our world.</p>
+  <h3>Core Values</h3>
+  <p><b>Service:</b> We reach out to support others without discrimination.</p>
+  <p><b>Dignity:</b> We respect and value each other, recognizing everyone’s worth.</p>
+  <p><b>Stewardship:</b> We responsibly manage the resources entrusted to us.</p>
+  </div>
+
+    <div class="container">
+    <button type="button" onclick=window.open('https://salvationarmy.ca/donations/', target="_blank") style="background-color:#ce2029">Donate Now</button>
+    </div>
+  </form>
+ </div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('SalvationArmy');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+  <buttonUnitedWayCenteraide onclick="document.getElementById('UnitedWayCenteraide').style.display='block'" style="width:200px;height:200px;"></buttonUnitedWayCenteraide>
+
+  <div id="UnitedWayCenteraide" class="modal">
+
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('UnitedWayCenteraide').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <img src="UnitedwayCenteraide.jpg"style="width:100px;height:100px"; alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <p>
+          United Way is a federated network of over 80 local United Way Centraide offices serving more than 5,000 communities across Canada, each registered as its own non-profit organization and governed by an independent volunteer-led local Board of Directors. Locally and nationally, our goal is the same – to create opportunities for a better life for everyone in our communities.
+          United Way Centraide Canada plays a critical role in providing national leadership and membership support for the network of local United Ways and Centraides across Canada. </p>
+          <p>Together, local United Ways and United Way Centraide Canada form the United Way Movement.
+          As a Canadian Movement with a strong heritage, we value trust and integrity, volunteerism, innovation, partnership, non-partisan leadership, and diversity. It is on the basis of these values that we improve lives and build communities.
+        </p>
+      </div>
+
+      <div class="container">
+        <button type="button" onclick=window.open('https://www.unitedway.ca/how-we-help/find-your-uwc/','_blank') style="background-color:#e31d1a">Donate Now</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+  // Get the modal
+  var modal = document.getElementById('UnitedWayCenteraide');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+</div>
+</div>
+
+<div class="footerwrapper">
+  <div class="contain">
+    <p><a href="https://www.instagram.com/covidonate/", target="_blank"><img src="instagram_gray.png" style="width:14px;height:14px;"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/CoviDonate", target="_blank"><img src="twitter_gray.png" style="width:14px;height:14px;"></a></p>
+  </div>
+  <p style="text-decoration:none;">Copyright 2020 &copy; CoviDonate Inc.<a style="color:#4d4d4d", href="mailto:covidonate@protonmail.com">covidonate@protonmail.com</a></p>
+<div class="footerpush"></div>
+</div>
+<footer class="footer"></footer>
+
+</body>
+<!-- <footer>
+<div class="bottombar">
+            <a style="padding:5px;", href="#"><img src="facebook.png" style="width:16px;height:16px;margin-bottom:13px;"></a>
+            <a style="padding:5px;", href="#"><img src="instagram.png" style="width:16px;height:16px;margin-bottom:13px;"></a>
+            <a style="padding:5px;", href="#"><img src="twitter.png" style="width:16px;height:16px;margin-bottom:13px;"></a>
+            <a style="padding:5px;", href="#"><img src="linkedin.png" style="width:16px;height:16px;margin-bottom:13px;"></a>
+</div>
+            <p style="margin-bottom:10px;">Copyright 2020 &copy CoviDonate Inc. <a style="color:#4d4d4d", href="#">covidonate@gmail.com</a></p>
+</footer> -->
+
+</html>
